@@ -38,8 +38,6 @@ if [ "$SRCDS_WORKSHOP" -eq 0 ]; then
         SERVER_WORKSHOP_FLAG="";
 fi
 
-printenv
-
 bash "${STEAMAPPDIR}/srcds_run" -game "${STEAMAPP}" -console -autoupdate \
                         -steam_dir "${STEAMCMDDIR}" \
                         -steamcmd_script "${HOMEDIR}/${STEAMAPP}_update.txt" \
