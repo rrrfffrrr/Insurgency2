@@ -6,7 +6,7 @@ FROM cm2network/steamcmd:root AS build_stage
 LABEL maintainer="rrrfffrrr@naver.com"
 
 ENV STEAMAPPID 237410
-ENV STEAMAPP insurgency2
+ENV STEAMAPP insurgency
 ENV STEAMAPPDIR "${HOMEDIR}/${STEAMAPP}-dedicated"
 ENV DLURL https://raw.githubusercontent.com/rrrfffrrr/Insurgency2
 
