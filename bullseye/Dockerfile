@@ -7,7 +7,7 @@ LABEL maintainer="rrrfffrrr@naver.com"
 
 ENV STEAMAPPID 237410
 ENV STEAMAPP insurgency
-ENV STEAMAPPDIR "${HOMEDIR}/${STEAMAPP}-dedicated"
+ENV STEAMAPPDIR "${STEAMCMDDIR}/${STEAMAPP}-dedicated"
 ENV DLURL https://raw.githubusercontent.com/rrrfffrrr/Insurgency2
 
 RUN set -x \
