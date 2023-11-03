@@ -54,6 +54,6 @@ bash "${STEAMAPPDIR}/srcds_run" -game "${STEAMAPP}" -console -autoupdate \
                         -ip "${SRCDS_IP}" \
                         +servercfgfile "${SRCDS_CFG}" \
                         +mapcyclefile "${SRCDS_MAPCYCLE}" \
-                        +SRCDS_LAN "${SRCDS_LAN}" \
+                        +sv_lan "${SRCDS_LAN}" \
                         ${SERVER_SECURITY_FLAG} \
                         ${SERVER_WORKSHOP_FLAG}
