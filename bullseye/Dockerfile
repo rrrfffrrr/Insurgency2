@@ -18,6 +18,7 @@ RUN set -x \
 	&& apt-get install -y --no-install-recommends --no-install-suggests \
 		wget=1.21-1+deb11u1 \
 		ca-certificates=20210119 \
+		ia32-libs \
 		lib32z1=1:1.2.11.dfsg-2+deb11u2 \
 		libncurses5:i386=6.2+20201114-2+deb11u2 \
 		libbz2-1.0:i386=1.0.8-4 \
