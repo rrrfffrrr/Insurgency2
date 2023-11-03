@@ -42,18 +42,10 @@ bash "${STEAMAPPDIR}/srcds_run" -game "${STEAMAPP}" -console -autoupdate \
                         -steam_dir "${STEAMCMDDIR}" \
                         -steamcmd_script "${HOMEDIR}/${STEAMAPP}_update.txt" \
                         -usercon \
-                        +fps_max "${SRCDS_FPSMAX}" \
-                        -tickrate "${SRCDS_TICKRATE}" \
                         -port "${SRCDS_PORT}" \
                         +maxplayers "${SRCDS_MAXPLAYERS}" \
                         +map "${SRCDS_STARTMAP}" \
                         +sv_setsteamaccount "${SRCDS_TOKEN}" \
-                        +rcon_password "${SRCDS_RCONPW}" \
-                        +sv_password "${SRCDS_PW}" \
                         +sv_region "${SRCDS_REGION}" \
-                        -ip "${SRCDS_IP}" \
-                        +servercfgfile "${SRCDS_CFG}" \
-                        +mapcyclefile "${SRCDS_MAPCYCLE}" \
                         +sv_lan "${SRCDS_LAN}" \
-                        ${SERVER_SECURITY_FLAG} \
                         ${SERVER_WORKSHOP_FLAG}
