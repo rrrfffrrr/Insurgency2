@@ -28,13 +28,13 @@ cd "${STEAMAPPDIR}"
 
 SERVER_SECURITY_FLAG="-secured";
 
-if [ "$SRCDS_SECURED" -eq 0]; then
+if [ "$SRCDS_SECURED" -eq 0 ]; then
         SERVER_SECURITY_FLAG="-insecured";
 fi
 
 SERVER_WORKSHOP_FLAG="-workshop";
 
-if [ "$SRCDS_WORKSHOP" -eq 0]; then
+if [ "$SRCDS_WORKSHOP" -eq 0 ]; then
         SERVER_WORKSHOP_FLAG="";
 fi
 
