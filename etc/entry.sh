@@ -38,8 +38,7 @@ if [ "$SRCDS_WORKSHOP" -eq 0 ]; then
         SERVER_WORKSHOP_FLAG="";
 fi
 
-bash "${STEAMAPPDIR}/srcds_run" -game "${STEAMAPP}" -console -autoupdate \
-                        -steam_dir "${STEAMCMDDIR}" \
+bash "${STEAMAPPDIR}/srcds_run" -console -autoupdate \
                         -steamcmd_script "${HOMEDIR}/${STEAMAPP}_update.txt" \
                         -usercon \
                         +fps_max "${SRCDS_FPSMAX}" \
