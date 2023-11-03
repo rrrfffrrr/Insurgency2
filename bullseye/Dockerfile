@@ -71,7 +71,8 @@ CMD ["bash", "entry.sh"]
 
 # Expose ports
 EXPOSE 27015/tcp \
-	27015/udp
+	27015/udp \
+	27020/udp
 
 FROM bullseye-base AS bullseye-metamod
 
