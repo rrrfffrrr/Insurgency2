@@ -52,6 +52,7 @@ bash "${STEAMAPPDIR}/srcds_run" -game "${STEAMAPP}" -console -autoupdate \
                         +sv_password "${SRCDS_PW}" \
                         +sv_region "${SRCDS_REGION}" \
                         -ip "${SRCDS_IP}" \
+                        +net_public_adr "${SRCDS_NET_PUBLIC_ADDRESS}" \
                         +servercfgfile "${SRCDS_CFG}" \
                         +mapcyclefile "${SRCDS_MAPCYCLE}" \
                         +sv_lan "${SRCDS_LAN}" \
