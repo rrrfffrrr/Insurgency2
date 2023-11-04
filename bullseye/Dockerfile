@@ -17,7 +17,6 @@ RUN set -x \
 	&& apt-get update \
 	&& apt-get install -y --no-install-recommends --no-install-suggests \
 		wget=1.21-1+deb11u1 \
-		software-properties-common \
 		ca-certificates=20210119 \
 		lib32z1=1:1.2.11.dfsg-2+deb11u2 \
 		libncurses5:i386=6.2+20201114-2+deb11u2 \
