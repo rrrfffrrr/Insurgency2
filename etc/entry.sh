@@ -1,7 +1,6 @@
 #!/bin/bash
 mkdir -p "${STEAMAPPDIR}" || true  
 
-export LD_LIBRARY_PATH=/home/steam/steamcmd/linux32:$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH=/home/steam/steamcmd/linux64:$LD_LIBRARY_PATH
 
 bash "${STEAMCMDDIR}/steamcmd.sh" +force_install_dir "${STEAMAPPDIR}" \
