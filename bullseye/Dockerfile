@@ -20,6 +20,7 @@ RUN set -x \
 		ca-certificates=20230311 \
 		lib32z1=1:1.2.13.dfsg-1 \
 		libncurses5:i386=6.4-4 \
+		lib32gcc-s1 lib32stdc++6 libsdl2-2.0-0:i386 \
 		libbz2-1.0:i386=1.0.8-5+b1 \
 		libtinfo5:i386=6.4-4 \
 		libcurl3-gnutls:i386=7.88.1-10+deb12u5 \
