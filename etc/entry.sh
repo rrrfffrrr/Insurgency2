@@ -1,7 +1,6 @@
 #!/bin/bash
 mkdir -p "${STEAMAPPDIR}" || true  
 
-bash "ln -s steamcmd/linux32/steamclient.so ~/.steam/sdk32/steamclient.so"
 bash "${STEAMCMDDIR}/steamcmd.sh" +force_install_dir "${STEAMAPPDIR}" \
 				+login anonymous \
 				+app_update "${STEAMAPPID}" \
