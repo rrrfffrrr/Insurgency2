@@ -77,8 +77,8 @@ EXPOSE 27015/tcp \
 
 FROM bullseye-base AS bullseye-metamod
 
-ENV METAMOD_VERSION 1.11
+ENV METAMOD_VERSION 1.12
 
 FROM bullseye-metamod AS bullseye-sourcemod
 
-ENV SOURCEMOD_VERSION 1.11
+ENV SOURCEMOD_VERSION 1.12
